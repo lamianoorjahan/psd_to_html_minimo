@@ -83,6 +83,57 @@ header{
 	margin: 0;
 }
 /*banner end*/
+
+
+
+/* newsletter start */
+.news{
+	padding: 70px 0;
+	background-color: #ddd;
+}
+.signup{
+	text-align: center;
+}
+.s_h1{
+	color: #333333;
+	margin: 0 0 70px;
+}
+.s_form{
+	position: relative;
+	width: 400px;
+	/*border: 5px solid red;*/
+	margin: 0 auto;
+}
+.s_form input{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+    padding-right: 45px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+    right: 0;
+}
+.s_form button:focus{
+	outline: 0;
+}
+.s_form button img{
+
+}
+/* newsletter end */
 .c_title{
 	font-size: 30px;
 	font-weight: 400;
@@ -159,55 +210,59 @@ header{
 	text-decoration: none;
 }
 
-
-
-
-
-/* newsletter start */
-.news{
-	padding: 70px 0;
-	background-color: #ddd;
+/* footer start */
+footer{
 }
-.signup{
+.terms{
+	width: 30%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.terms ul{
+	overflow: hidden;
+	padding: 0;
+}
+.terms ul li{
+	float: left;
+	list-style: none;
+}
+.terms ul li a{
+	text-decoration: none;
 	text-align: center;
-}
-.s_h1{
-	color: #333333;
-	margin: 0 0 70px;
-}
-.s_form{
-	position: relative;
-	width: 400px;
-	/*border: 5px solid red;*/
-	margin: 0 auto;
-}
-.s_form input{
-	font-family: 'Playfair Display', serif;
-	font-size: 14px;
+	margin: 0 10px;
+	display: inline-block;
 	color: #626262;
-	width: 345px;
-	height: 45px;
-	border: none;
-	border-bottom: 1px solid #000000;
-	background-color: transparent;
-	padding-left: 5px;
-    padding-right: 45px;
-}
-.s_form input:focus{
-	outline: 0;
-}
-.s_form button{
-	position: absolute;
-	background-color: transparent;
-	border: none;
 	cursor: pointer;
-	top: 15px;
-    right: 0;
+	border-bottom: 1px solid transparent;
+	transition: .3s;
 }
-.s_form button:focus{
-	outline: 0;
+.terms ul li:first-child a{
+	margin-left: 0;
 }
-.s_form button img{
-
+.terms ul li a:hover {
+	border-bottom: 1px solid #000000;
 }
-/* newsletter end */
+.follow{
+	width: 32%;
+	float: right;
+}
+.follow ul{
+	float: right;
+}
+.follow ul li{
+	float: left;
+	list-style: none;
+}
+.follow ul li a{
+	text-decoration: none;
+	text-align: center;
+	margin: 0 10px;
+	display: inline-block;
+	color: #626262;
+	cursor: pointer;
+	transition: .3s;
+}
+.follow ul li:last-child a{
+	margin-right: 0;
+}
+/* footer end */
