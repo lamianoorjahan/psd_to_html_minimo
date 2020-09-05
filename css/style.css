@@ -16,28 +16,27 @@ header{
 .container{
 	width: 90%;
 	margin: 0 auto;
-/*	border: 1px solid red;*/
 	overflow: hidden;
 }
 .logo{
 	width: 12%;
-
 	float:left;
+	margin-top: 10px;
 }
 .logo img{
 	width: 100%;
 }
 .menu{
 	width: 65%;
-
 	float:right;
 }
 .menu ul{
-	list-style: none;
+
 	float:right;
 }
 
 .menu ul li{
+	list-style: none;
 	float: left;
 }
 .menu ul li a{
@@ -58,32 +57,52 @@ header{
 }
 /*header end*/
 
+
+
+
 /*banner start*/
 .banner{}
 .b_img{}
 .b_img img{
-	width: 100%;
+		width: 100%;
 }
-.gateway{
+
+
+/*banner ends*/
+
+
+
+/**gataway start**/
+.gateaway{
 	padding: 70px 0;
 }
 .container2{
 	width: 80%;
-	margin:0 auto;
-	/*border: 1px solid red;*/
+	margin: 0 auto;
+	
 }
-.g_content{}
-
 .light{
-	font-family: 'Ubuntu',sans-serif;
-	font-size: 14px ;
-	font-weight: 300 ;
-	color:#b4ad9e ; 
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
 	text-transform: uppercase;
-	margin: 0;
+	margin:0;
 }
-/*banner end*/
-
+.c_title{
+	font-size: 30px;
+	font-weight: 400;
+	color: #626262;
+	margin: 25px 0 30px;
+}
+.c_p{
+	color: #626262;
+	line-height: 25px;
+	word-spacing: 1px;
+	margin-top: 0;
+	margin-bottom: 45px;
+}
+/**gataway ends**/
 
 
 /* newsletter start */
@@ -134,18 +153,10 @@ header{
 
 }
 /* newsletter end */
-.c_title{
-	font-size: 30px;
-	font-weight: 400;
-	margin:25px 0 30px;
-}  
 
-.c_p{
-	line-height: 25px;
-	word-spacing:1px;
-	margin-top: 0;
-	margin-bottom: 45px;
-}
+
+
+/*blog start*/
 
 .blog{
 	padding: 70px 0;
@@ -155,7 +166,6 @@ header{
 }
 .single{
 	width: 47%;
-	/*border: 1px solid red;*/
 	float: left;
 }
 .single:nth-child(even){
@@ -169,11 +179,9 @@ header{
 .mb_remove{
 	margin-bottom: 0;
 }
+/*blog ends*/
 
-.contact{
-	min-height: 500px;
-	background-color: #ddd;
-}
+/*button starts*/
 
 .load{
 	padding: 100px 0;
@@ -210,12 +218,16 @@ header{
 	text-decoration: none;
 }
 
+/*button ends*/
+
 /* footer start */
 footer{
+	background-color: #f0f0f0;
+	padding: 30px;
+	margin-top: 120px;
 }
 .terms{
 	width: 30%;
-	/*border: 1px solid red;*/
 	float: left;
 }
 .terms ul{
@@ -231,7 +243,7 @@ footer{
 	text-align: center;
 	margin: 0 10px;
 	display: inline-block;
-	color: #626262;
+	color: black;
 	cursor: pointer;
 	border-bottom: 1px solid transparent;
 	transition: .3s;
